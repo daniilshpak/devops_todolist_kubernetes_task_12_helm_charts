@@ -22,3 +22,5 @@ cd .infrastructure/helm-chart/todoapp
 helm dependency update .
 
 helm install todoapp .
+
+kubectl get all,cm,secret,ing -A > ../../../output.log
