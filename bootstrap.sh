@@ -17,7 +17,7 @@ kubectl wait --namespace ingress-nginx \
   --selector=app.kubernetes.io/component=controller \
   --timeout=90s
 
-cd helm-chart/todoapp
+cd .infrastructure/helm-chart/todoapp
 
 helm dependency update .
 
